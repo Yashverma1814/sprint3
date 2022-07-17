@@ -1,7 +1,13 @@
-import React from "react";
+import { Login } from "../pages/Login";
+import { Products } from "./Products";
 
-const Navbar = () => {
-  return <div>{/* CODE HERE */}</div>;
+export const Navbar = () => {
+
+
+  return (
+    <div>
+      <Login />
+      <Products />
+    </div>)
 };
 
-export default Navbar;
